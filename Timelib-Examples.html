@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Timelib Validator  Examples and Documentation</title>
+    <meta name="description" content="A lightweight, customizable jQuery time picker based on date plugin,time validator" />
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.timepicker.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/jquery.timepicker.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/timelib-2.0.js"></script>
+</head>
+<body>
+    <header>
+
+        <h1><a href="https://github.com/jonthornton/jquery-timepicker">jquery.timepicker Based On Current time </a></h1>
+        <p class="body-text">
+            A lightweight, customizable javascript timepicker plugin for jQuery inspired by <a href="https://github.com/jonthornton">Jon Thornton</a>
+        </p>
+    </header>
+
+    <section>
+        <p class="body-text">In this plugin I am using <a href="https://github.com/jonthornton">Jon Thornton</a>  timepicker and I have written the  <b>timelib-2.0.js</b> library for picking up the time Based on current time </p> 
+    </section>
+    <section id="examples">
+        <article>
+            <div class="demo">
+                <h2>Example</h2>
+                <p>Pass the date time and interval arguments to javascript method </p>
+                <p><input id="txtdate" type="text" class="date" placeholder="Date" />
+                <input id="time" type="text" class="time" data-scroll-default="6:00am" placeholder="time" /></p>
+            </div>
+
+            <script>
+                $(function() {
+                    $("#txtdate").datepicker({ minDate: 0 });
+                     $("#time").focusin(function () {
+                   t('#txtdate','#time',15);  
+                     });
+                });
+            </script>
+
+            <pre class="code" data-language="javascript">$("#time").focusin(function () {t('#txtdate','#time',15); });</pre>
+        </article>
+        </section>
+        <br/><br/><br/><br/><br/><br/><br/><br/>
+     <br/><br/><br/><br/><br/><br/><br/><br/>
+    
+    <footer>
+        <p>&copy; 2015 <a href="">Ganesh Prasad Adiga</a></p>
+    </footer>
+
+</body>
+    <script>    
+</script>
+</html>
