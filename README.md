@@ -1,4 +1,4 @@
-# Timepicker-based-on-current-date
+# Timepicker-based-on-current-Date and time
 Javascript time picker based on current time
 #Usage
 syntax
