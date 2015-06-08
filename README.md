@@ -16,3 +16,7 @@ t('#date','#time',15);
 
 ```
 ![alt tag](http://myprofile.wc.lt/screen.gif)
+
+#Live Demo 
+
+Go to this [Url](http://timelib.890m.com/)
